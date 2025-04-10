@@ -15,7 +15,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'unsafe-secret-key-for-dev')
 DEBUG = os.getenv('DEBUG', 'True') == 'True'
 
 # Render.com domain or local development
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'portfolio-10dd.onrender.com']
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 INSTALLED_APPS = [
